@@ -1,0 +1,7 @@
+@import '~assets/common/css/fonts/alike-font.scss';
+@import '~assets/common/css/fonts/font-size.scss';
+
+span[id="evaluation-area"] {
+    @extend .alike-font;
+    @extend .font-sizeA;
+}

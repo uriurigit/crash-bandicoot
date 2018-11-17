@@ -1,0 +1,20 @@
+span[id="time-attack-area"] {
+    .reric-icon {
+        &.sapphire {
+            content: url(/crash-bandicoot/icons/reric-sapphire.svg);
+        }
+        &.gold {
+            content: url(/crash-bandicoot/icons/reric-gold.svg);
+        }
+        &.platinum {
+            content: url(/crash-bandicoot/icons/reric-platinum.svg);
+        }
+        &.crimson {
+            content: url(/crash-bandicoot/icons/reric-crimson.svg);
+        }
+    
+        background-size: 100%;
+        width: 2.5rem;
+        height: 2.5rem;
+    }    
+}

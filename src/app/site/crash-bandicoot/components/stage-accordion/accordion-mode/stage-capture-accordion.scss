@@ -1,0 +1,18 @@
+@import '~assets/common/css/fonts/font-size.scss';
+
+div[id="stage-capture-accordion"] {
+    @extend .font-sizeB;
+
+    div[id="time-attack-area"] {
+        float: left;
+    }
+    div[id="boxes-area"] {
+        float: right;
+    }
+    div[id="description-area"] {
+        float: left;
+    }
+    div[id="clear"] {
+        clear: both;
+    }
+}

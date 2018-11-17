@@ -1,0 +1,38 @@
+div[id="span-accordion"] {
+    max-width: 52rem;
+    margin: 1rem auto;
+
+    span[id="world-name"] {
+        color: black;
+        padding: 1rem;
+        margin: 1rem;
+    };
+
+    accordion {
+        .card {
+            max-width: 80rem;
+            margin: auto;
+        };
+
+        .blue {
+            a {
+                color: #007BFF;
+            };
+            a:hover {
+                color: #0056b3;
+            };
+        };
+        .orange {
+            a {
+                color: #FF8300;
+            };
+            a:hover {
+                color: #B23800;
+            };
+        };
+    };
+
+    span[id="playable-area"] {
+        text-align: right;
+    }
+}

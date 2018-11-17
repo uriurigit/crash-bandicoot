@@ -1,0 +1,30 @@
+div[id="material-area"] {
+    margin: 2rem;
+
+    div[id="title-box"] {
+        height: 1.5rem;
+    
+        span[id="title"] {
+            padding: 0.8rem 0.8rem;
+            margin-right: 28rem;
+            border-radius: 1rem;
+            font-weight: bold;
+            color: #fff;
+            background: #00CCFF;
+        }
+    }
+    div[id="detail-box"] {
+        padding: 2rem 1rem 1rem;
+        border-radius: 1rem;
+        border: 0.1rem solid #00CCFF;
+        text-align: left;
+        max-width: 40rem;
+
+        p[id="name"] {
+
+        }
+        p[id="detail"] {
+            
+        }
+    }        
+}

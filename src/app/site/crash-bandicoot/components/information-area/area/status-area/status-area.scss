@@ -1,0 +1,31 @@
+span[id="status-area"] {
+    .diamond-icon {
+        &.white {
+            content: url(/crash-bandicoot/icons/diamond-black.svg);
+        }
+        &.blue {
+            content: url(/crash-bandicoot/icons/diamond-blue.svg);
+        }
+        &.green {
+            content: url(/crash-bandicoot/icons/diamond-green.svg);
+        }
+        &.orange_ {
+            content: url(/crash-bandicoot/icons/diamond-orange.svg);
+        }
+        &.purple {
+            content: url(/crash-bandicoot/icons/diamond-purple.svg);
+        }
+        &.red {
+            content: url(/crash-bandicoot/icons/diamond-red.svg);
+        }
+        &.yellow {
+            content: url(/crash-bandicoot/icons/diamond-yellow.svg);
+        }
+    
+        background-size: 100%;
+        width: 2rem;
+        height: 2rem;
+        display: inline-block;
+        _display: inline;
+    }     
+}
